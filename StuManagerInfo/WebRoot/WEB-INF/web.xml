@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>myservlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addStudent</servlet-name>
+    <servlet-class>myservlets.addStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>guanliStudent</servlet-name>
+    <servlet-class>myservlets.guanliStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deletestu</servlet-name>
+    <servlet-class>myservlets.deletestu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCourse</servlet-name>
+    <servlet-class>myservlets.addCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addSushe</servlet-name>
+    <servlet-class>myservlets.addSushe</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addMoney</servlet-name>
+    <servlet-class>myservlets.addMoney</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>guanlisushe</servlet-name>
+    <servlet-class>myservlets.guanlisushe</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>guanlicourse</servlet-name>
+    <servlet-class>myservlets.guanlicourse</servlet-class>
+  </servlet>
+
+
+  
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addStudent</servlet-name>
+    <url-pattern>/addStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guanliStudent</servlet-name>
+    <url-pattern>/guanliStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deletestu</servlet-name>
+    <url-pattern>/deletestu</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>addCourse</servlet-name>
+    <url-pattern>/addCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addSushe</servlet-name>
+    <url-pattern>/addSushe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addMoney</servlet-name>
+    <url-pattern>/addMoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guanlisushe</servlet-name>
+    <url-pattern>/guanlisushe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guanlicourse</servlet-name>
+    <url-pattern>/guanlicourse</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
